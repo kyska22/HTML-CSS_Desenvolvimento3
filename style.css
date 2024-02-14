@@ -33,3 +33,18 @@ header {
     margin: 8px;
     list-style-type: none;
   }
+/* Aplicação das propriedades flex box */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li, .rs {
+    margin-left: 48px;
+  }
